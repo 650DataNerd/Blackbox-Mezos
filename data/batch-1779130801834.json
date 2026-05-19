@@ -1,0 +1,142 @@
+[
+  {
+    "id": "ccde188d-34a7-466a-8428-e70f3798d570",
+    "source": "hackernews",
+    "title": "Anthropic acquires Stainless",
+    "summary": "Anthropic acquires Stainless",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "publishedAt": "2026-05-18T17:01:21.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  },
+  {
+    "id": "85eb6241-b57e-47b8-b0e3-2b852cd13dfc",
+    "source": "hackernews",
+    "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+    "summary": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+    "url": "https://archestra.ai/blog/only-responsible-ai",
+    "publishedAt": "2026-05-18T15:24:19.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  },
+  {
+    "id": "73a97998-a92c-4b7b-9fec-51b52265a865",
+    "source": "hackernews",
+    "title": "Haiku OS runs on M1 Macs now",
+    "summary": "Haiku OS runs on M1 Macs now",
+    "url": "https://discuss.haiku-os.org/t/my-haiku-arm64-progress/19044?page=2",
+    "publishedAt": "2026-05-18T18:30:55.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  },
+  {
+    "id": "85589c77-8342-4427-9b83-c78c881680c2",
+    "source": "hackernews",
+    "title": "At least 100 deaths reported in Ebola outbreak in DR Congo",
+    "summary": "At least 100 deaths reported in Ebola outbreak in DR Congo",
+    "url": "https://www.bbc.com/news/articles/cq6pz60p996o",
+    "publishedAt": "2026-05-18T17:57:13.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  },
+  {
+    "id": "7b45813d-635e-4f52-93c6-e5916b427ad2",
+    "source": "hackernews",
+    "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+    "summary": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+    "publishedAt": "2026-05-18T17:38:22.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  },
+  {
+    "id": "8140160c-71f0-4915-afc2-2a50b052bab3",
+    "source": "hackernews",
+    "title": "Show HN: Files.md – Open-source alternative to Obsidian",
+    "summary": "Show HN: Files.md – Open-source alternative to Obsidian",
+    "url": "https://github.com/zakirullin/files.md",
+    "publishedAt": "2026-05-18T13:33:33.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  },
+  {
+    "id": "b7241155-c4f9-4dd5-96a1-48537bc944a5",
+    "source": "hackernews",
+    "title": "The Quiet Renovation at Bitwarden",
+    "summary": "The Quiet Renovation at Bitwarden",
+    "url": "https://blog.ppb1701.com/the-quiet-renovation-at-bitwarden",
+    "publishedAt": "2026-05-16T20:13:41.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  },
+  {
+    "id": "0fd7f2d6-70e0-452d-b5fe-3cb7b575c99a",
+    "source": "hackernews",
+    "title": "Iran will impose fees on subsea internet cables in Strait of Hormuz",
+    "summary": "Iran will impose fees on subsea internet cables in Strait of Hormuz",
+    "url": "https://www.cnn.com/2026/05/17/middleeast/iran-hormuz-undersea-cables-intl",
+    "publishedAt": "2026-05-18T17:55:55.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  },
+  {
+    "id": "5ddf86e3-2df2-41aa-afac-f73bca339548",
+    "source": "hackernews",
+    "title": "The Fil-C Optimized Calling Convention",
+    "summary": "The Fil-C Optimized Calling Convention",
+    "url": "https://fil-c.org/calling_convention",
+    "publishedAt": "2026-05-16T19:10:08.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  },
+  {
+    "id": "41d5f97c-02bb-4944-a546-14cfd054e321",
+    "source": "hackernews",
+    "title": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
+    "summary": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
+    "url": "https://modal.com/blog/truly-serverless-gpus",
+    "publishedAt": "2026-05-18T17:56:26.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-18T19:00:01.834Z"
+  }
+]

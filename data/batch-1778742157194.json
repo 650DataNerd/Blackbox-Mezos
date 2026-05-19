@@ -1,0 +1,142 @@
+[
+  {
+    "id": "d8a2e7e8-a85e-4328-81ae-3e95cb1e676b",
+    "source": "hackernews",
+    "title": "Claude for Small Business",
+    "summary": "Claude for Small Business",
+    "url": "https://www.anthropic.com/news/claude-for-small-business",
+    "publishedAt": "2026-05-14T03:59:35.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.193Z"
+  },
+  {
+    "id": "0f592842-a3d6-4038-a7b3-3fad1e0ad0a0",
+    "source": "hackernews",
+    "title": "Scorched Earth 2000 – Web",
+    "summary": "Scorched Earth 2000 – Web",
+    "url": "http://www.scorch2000.com/web/",
+    "publishedAt": "2026-05-14T00:41:29.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.194Z"
+  },
+  {
+    "id": "328907be-9a2a-4dad-8eca-4e6f6a79c182",
+    "source": "hackernews",
+    "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "summary": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "url": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
+    "publishedAt": "2026-05-10T20:54:06.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.194Z"
+  },
+  {
+    "id": "4fd6e735-9c75-42a3-92ca-9dfa59566f60",
+    "source": "hackernews",
+    "title": "Cisco workforce reductions",
+    "summary": "Cisco workforce reductions",
+    "url": "https://blogs.cisco.com/news/our-path-forward",
+    "publishedAt": "2026-05-14T01:38:05.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.194Z"
+  },
+  {
+    "id": "ae2b2c0f-09cb-4773-a810-a1dd50cfbbd4",
+    "source": "hackernews",
+    "title": "Arena AI Model ELO History",
+    "summary": "Arena AI Model ELO History",
+    "url": "https://mayerwin.github.io/AI-Arena-History/",
+    "publishedAt": "2026-05-14T03:19:05.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.194Z"
+  },
+  {
+    "id": "f383f071-0d37-421a-b4bb-a3bfda3f4bbd",
+    "source": "hackernews",
+    "title": "Setting up a free *.city.state.us locality domain (2025)",
+    "summary": "Setting up a free *.city.state.us locality domain (2025)",
+    "url": "https://fredchan.org/blog/locality-domains-guide/",
+    "publishedAt": "2026-05-13T14:45:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.194Z"
+  },
+  {
+    "id": "019b5489-53b7-4149-9517-1a2f6c0e73f3",
+    "source": "hackernews",
+    "title": "A History of IDEs at Google",
+    "summary": "A History of IDEs at Google",
+    "url": "https://laurent.le-brun.eu/blog/a-history-of-ides-at-google",
+    "publishedAt": "2026-05-09T11:14:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.194Z"
+  },
+  {
+    "id": "bdf91aad-a2aa-43e4-b9d3-47c5cc3814dd",
+    "source": "hackernews",
+    "title": "Extraordinary Ordinals",
+    "summary": "Extraordinary Ordinals",
+    "url": "https://text.marvinborner.de/2026-04-09-17.html",
+    "publishedAt": "2026-05-12T01:03:03.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.194Z"
+  },
+  {
+    "id": "d3eb800d-1fe5-45f8-a43d-46e8feb45dc3",
+    "source": "hackernews",
+    "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+    "summary": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+    "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
+    "publishedAt": "2026-05-13T18:30:51.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.194Z"
+  },
+  {
+    "id": "653bd733-b2bb-4012-ac98-99541b746b92",
+    "source": "hackernews",
+    "title": "The Emacsification of Software",
+    "summary": "The Emacsification of Software",
+    "url": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
+    "publishedAt": "2026-05-13T07:06:14.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:02:37.194Z"
+  }
+]

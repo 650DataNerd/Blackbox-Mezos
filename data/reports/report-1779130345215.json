@@ -1,0 +1,14 @@
+{
+  "id": "report-1779130345215",
+  "generatedAt": "2026-05-18T18:52:25.215Z",
+  "sourcesUsed": 10,
+  "topSignals": [
+    "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "Setting up a free *.city.state.us locality domain (2025)"
+  ],
+  "riskLevel": "low",
+  "recommendedAction": "buy",
+  "confidence": 0.6,
+  "summary": "Analysed 10 items across hackernews. Sentiment: 2 bullish, 0 bearish, 8 neutral. Signal leans BUY with low risk and 60% confidence.",
+  "paidTxHash": "0x777266289b13e30a820e86d2a6b4abb97fd6ed6e378b3b9600735ebda1cf7886"
+}

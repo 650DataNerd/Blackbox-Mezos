@@ -1,0 +1,142 @@
+[
+  {
+    "id": "63f0a18e-f206-4984-91f9-08c9f0791faf",
+    "source": "hackernews",
+    "title": "Claude for Small Business",
+    "summary": "Claude for Small Business",
+    "url": "https://www.anthropic.com/news/claude-for-small-business",
+    "publishedAt": "2026-05-14T03:59:35.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  },
+  {
+    "id": "2ad57839-34b5-44f6-bc82-db1f343c198e",
+    "source": "hackernews",
+    "title": "Scorched Earth 2000 – Web",
+    "summary": "Scorched Earth 2000 – Web",
+    "url": "http://www.scorch2000.com/web/",
+    "publishedAt": "2026-05-14T00:41:29.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  },
+  {
+    "id": "acf6bdd3-bdb7-44c8-87e4-e790326cc22c",
+    "source": "hackernews",
+    "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "summary": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "url": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
+    "publishedAt": "2026-05-10T20:54:06.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  },
+  {
+    "id": "c007dbcf-ebd3-4ab4-ac78-0ef6e9c024d3",
+    "source": "hackernews",
+    "title": "LLMs are breaking 20 year old system design",
+    "summary": "LLMs are breaking 20 year old system design",
+    "url": "https://zknill.io/posts/llms-are-breaking-20-year-old-system-design/",
+    "publishedAt": "2026-05-14T06:39:39.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  },
+  {
+    "id": "dc4f314a-e9af-4430-8582-2bd7e8214d70",
+    "source": "hackernews",
+    "title": "Arena AI Model ELO History",
+    "summary": "Arena AI Model ELO History",
+    "url": "https://mayerwin.github.io/AI-Arena-History/",
+    "publishedAt": "2026-05-14T03:19:05.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  },
+  {
+    "id": "3d66e220-d09a-4a5d-bdb5-757bf7c42b27",
+    "source": "hackernews",
+    "title": "Setting up a free *.city.state.us locality domain (2025)",
+    "summary": "Setting up a free *.city.state.us locality domain (2025)",
+    "url": "https://fredchan.org/blog/locality-domains-guide/",
+    "publishedAt": "2026-05-13T14:45:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  },
+  {
+    "id": "e9570619-f704-4e86-94e7-603921ac7f11",
+    "source": "hackernews",
+    "title": "Cisco workforce reductions",
+    "summary": "Cisco workforce reductions",
+    "url": "https://blogs.cisco.com/news/our-path-forward",
+    "publishedAt": "2026-05-14T01:38:05.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  },
+  {
+    "id": "9f96288e-6ff5-41c2-ab85-668e1ecf554b",
+    "source": "hackernews",
+    "title": "Extraordinary Ordinals",
+    "summary": "Extraordinary Ordinals",
+    "url": "https://text.marvinborner.de/2026-04-09-17.html",
+    "publishedAt": "2026-05-12T01:03:03.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  },
+  {
+    "id": "f2c8a751-471e-4b00-a56f-de1973328c4c",
+    "source": "hackernews",
+    "title": "A History of IDEs at Google",
+    "summary": "A History of IDEs at Google",
+    "url": "https://laurent.le-brun.eu/blog/a-history-of-ides-at-google",
+    "publishedAt": "2026-05-09T11:14:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  },
+  {
+    "id": "ff7d9c9a-e965-4dc2-a8e8-209945b950a5",
+    "source": "hackernews",
+    "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+    "summary": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+    "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
+    "publishedAt": "2026-05-13T18:30:51.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T07:45:01.631Z"
+  }
+]

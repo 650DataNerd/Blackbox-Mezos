@@ -1,0 +1,15 @@
+{
+  "id": "report-1779130483549",
+  "generatedAt": "2026-05-18T18:54:43.549Z",
+  "sourcesUsed": 10,
+  "topSignals": [
+    "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "Setting up a free *.city.state.us locality domain (2025)",
+    "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7"
+  ],
+  "riskLevel": "low",
+  "recommendedAction": "buy",
+  "confidence": 0.65,
+  "summary": "Analysed 10 items across hackernews. Sentiment: 3 bullish, 0 bearish, 7 neutral. Signal leans BUY with low risk and 65% confidence.",
+  "paidTxHash": "0x337a2286460f79c5eed20a30589ac1536ce918789ea68c6941de4ec7f9c2efd5"
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "0a4492df-ce6b-4834-b725-3ff735b7ebcf",
+    "source": "hackernews",
+    "title": "Claude for Small Business",
+    "summary": "Claude for Small Business",
+    "url": "https://www.anthropic.com/news/claude-for-small-business",
+    "publishedAt": "2026-05-14T03:59:35.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  },
+  {
+    "id": "9ea85f72-06eb-423b-b1bd-df46dd323ca1",
+    "source": "hackernews",
+    "title": "Show HN: Running the second public ODoH relay",
+    "summary": "Show HN: Running the second public ODoH relay",
+    "url": "https://numa.rs/blog/posts/odoh-anonymous-dns-without-an-account.html",
+    "publishedAt": "2026-05-14T10:44:50.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  },
+  {
+    "id": "792e0f73-9e99-4aa4-8d1c-ab8bb1a60e1b",
+    "source": "hackernews",
+    "title": "Myths about /dev/urandom",
+    "summary": "Myths about /dev/urandom",
+    "url": "https://www.2uo.de/myths-about-urandom/",
+    "publishedAt": "2026-05-14T11:26:22.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  },
+  {
+    "id": "3a721339-eaba-430f-b56d-0069185d8874",
+    "source": "hackernews",
+    "title": "Scorched Earth 2000 – Web",
+    "summary": "Scorched Earth 2000 – Web",
+    "url": "http://www.scorch2000.com/web/",
+    "publishedAt": "2026-05-14T00:41:29.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  },
+  {
+    "id": "58ff7f41-ea93-4732-839b-61d061498456",
+    "source": "hackernews",
+    "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "summary": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "url": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
+    "publishedAt": "2026-05-10T20:54:06.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  },
+  {
+    "id": "d9d4ebf8-df40-45ee-adeb-62dc40a6d9c3",
+    "source": "hackernews",
+    "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+    "summary": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+    "url": "https://classic7.lol/",
+    "publishedAt": "2026-05-14T07:03:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  },
+  {
+    "id": "998573fc-1156-4be1-b264-433339ec777b",
+    "source": "hackernews",
+    "title": "The Tree House: A voyage to the source of a backyard dream",
+    "summary": "The Tree House: A voyage to the source of a backyard dream",
+    "url": "https://www.laphamsquarterly.org/roundtable/tree-house",
+    "publishedAt": "2026-05-11T19:41:02.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  },
+  {
+    "id": "7e08b911-3bb0-4033-a4e9-e77ed74c61af",
+    "source": "hackernews",
+    "title": "Setting up a free *.city.state.us locality domain (2025)",
+    "summary": "Setting up a free *.city.state.us locality domain (2025)",
+    "url": "https://fredchan.org/blog/locality-domains-guide/",
+    "publishedAt": "2026-05-13T14:45:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  },
+  {
+    "id": "39c14dd1-830f-4150-b1b4-ec5749ea4a9e",
+    "source": "hackernews",
+    "title": "Leaving the Physical World",
+    "summary": "Leaving the Physical World",
+    "url": "https://www.eff.org/pages/leaving-physical-world",
+    "publishedAt": "2026-05-10T13:54:54.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  },
+  {
+    "id": "b97aa138-b242-4edc-a671-bf0bb5353d2e",
+    "source": "hackernews",
+    "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+    "summary": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+    "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
+    "publishedAt": "2026-05-13T18:30:51.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:15:01.807Z"
+  }
+]

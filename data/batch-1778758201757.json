@@ -1,0 +1,142 @@
+[
+  {
+    "id": "ccfd5e8f-f096-4305-a637-8e13d4da1fc8",
+    "source": "hackernews",
+    "title": "Claude for Small Business",
+    "summary": "Claude for Small Business",
+    "url": "https://www.anthropic.com/news/claude-for-small-business",
+    "publishedAt": "2026-05-14T03:59:35.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  },
+  {
+    "id": "28a25b39-e0e1-451e-b75b-ad543c8bc3e7",
+    "source": "hackernews",
+    "title": "Show HN: Running the second public ODoH relay",
+    "summary": "Show HN: Running the second public ODoH relay",
+    "url": "https://numa.rs/blog/posts/odoh-anonymous-dns-without-an-account.html",
+    "publishedAt": "2026-05-14T10:44:50.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  },
+  {
+    "id": "30e3b6d0-d6c1-480c-9723-00ead924bfa9",
+    "source": "hackernews",
+    "title": "Scorched Earth 2000 – Web",
+    "summary": "Scorched Earth 2000 – Web",
+    "url": "http://www.scorch2000.com/web/",
+    "publishedAt": "2026-05-14T00:41:29.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  },
+  {
+    "id": "cb075584-1aa3-4a3e-9326-c90c37e9cffa",
+    "source": "hackernews",
+    "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "summary": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "url": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
+    "publishedAt": "2026-05-10T20:54:06.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  },
+  {
+    "id": "c0b1bdc0-183f-4c78-8bb9-9e5b07c86b38",
+    "source": "hackernews",
+    "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+    "summary": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+    "url": "https://classic7.lol/",
+    "publishedAt": "2026-05-14T07:03:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  },
+  {
+    "id": "dcbf850a-f097-4815-bfa2-f6ecb939a317",
+    "source": "hackernews",
+    "title": "Setting up a free *.city.state.us locality domain (2025)",
+    "summary": "Setting up a free *.city.state.us locality domain (2025)",
+    "url": "https://fredchan.org/blog/locality-domains-guide/",
+    "publishedAt": "2026-05-13T14:45:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  },
+  {
+    "id": "2fe47fb1-57da-41bf-9243-cd8009c24bd8",
+    "source": "hackernews",
+    "title": "Leaving the Physical World",
+    "summary": "Leaving the Physical World",
+    "url": "https://www.eff.org/pages/leaving-physical-world",
+    "publishedAt": "2026-05-10T13:54:54.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  },
+  {
+    "id": "e88d0df3-b1e5-464b-8b8e-44630a10d206",
+    "source": "hackernews",
+    "title": "Technical Dimensions of Live Feedback in Programming Systems",
+    "summary": "Technical Dimensions of Live Feedback in Programming Systems",
+    "url": "https://joshuahhh.com/dims-of-feedback/",
+    "publishedAt": "2026-05-10T14:56:05.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  },
+  {
+    "id": "fc135ce2-ae58-4422-865d-9903f5afa7fd",
+    "source": "hackernews",
+    "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+    "summary": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+    "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
+    "publishedAt": "2026-05-13T18:30:51.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  },
+  {
+    "id": "223fe808-e001-4f5e-bc7c-f9e7c7893ee5",
+    "source": "hackernews",
+    "title": "A History of IDEs at Google",
+    "summary": "A History of IDEs at Google",
+    "url": "https://laurent.le-brun.eu/blog/a-history-of-ides-at-google",
+    "publishedAt": "2026-05-09T11:14:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T11:30:01.757Z"
+  }
+]

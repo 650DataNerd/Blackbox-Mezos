@@ -1,0 +1,13 @@
+{
+  "id": "report-1779130279687",
+  "generatedAt": "2026-05-18T18:51:19.687Z",
+  "sourcesUsed": 10,
+  "topSignals": [
+    "Restore full BambuNetwork support for Bambu Lab printers"
+  ],
+  "riskLevel": "low",
+  "recommendedAction": "watch",
+  "confidence": 0.55,
+  "summary": "Analysed 10 items across hackernews. Sentiment: 1 bullish, 0 bearish, 9 neutral. Signal leans WATCH with low risk and 55% confidence.",
+  "paidTxHash": "0xc2cafe453a6c949ead681a519e8bab3a126725ab7847198921500ec51164e60f"
+}

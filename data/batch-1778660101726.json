@@ -1,0 +1,142 @@
+[
+  {
+    "id": "e2b98632-936a-4254-8239-90dd3ccd88d3",
+    "source": "hackernews",
+    "title": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly",
+    "summary": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly",
+    "url": "https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/",
+    "publishedAt": "2026-05-13T07:11:17.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  },
+  {
+    "id": "c1643b5b-a880-4d15-9a0e-600b8b3f8696",
+    "source": "hackernews",
+    "title": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
+    "summary": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
+    "url": "https://arxiv.org/abs/2605.08419",
+    "publishedAt": "2026-05-13T04:25:03.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  },
+  {
+    "id": "794854e9-4b55-4030-97ae-a41a0c9cb18f",
+    "source": "hackernews",
+    "title": "Restore full BambuNetwork support for Bambu Lab printers",
+    "summary": "Restore full BambuNetwork support for Bambu Lab printers",
+    "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+    "publishedAt": "2026-05-12T21:55:21.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  },
+  {
+    "id": "04a55b1e-f2dd-4125-8f8f-e2924d9456cd",
+    "source": "hackernews",
+    "title": "The vi family",
+    "summary": "The vi family",
+    "url": "https://lpar.ATH0.com/posts/2026/05/the-vi-family/",
+    "publishedAt": "2026-05-06T07:51:16.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  },
+  {
+    "id": "b096cb93-47a4-427e-a9fe-29ed860f0447",
+    "source": "hackernews",
+    "title": "Googlebook",
+    "summary": "Googlebook",
+    "url": "https://googlebook.google/",
+    "publishedAt": "2026-05-12T17:37:36.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  },
+  {
+    "id": "d0f91a87-de13-46d7-95ce-46803af62a05",
+    "source": "hackernews",
+    "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+    "summary": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+    "url": "https://github.com/cactus-compute/needle",
+    "publishedAt": "2026-05-12T18:03:11.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  },
+  {
+    "id": "d8bb8365-cd7f-46e7-8d87-a0c67ca5bbc0",
+    "source": "hackernews",
+    "title": "How to make your text look futuristic (2016)",
+    "summary": "How to make your text look futuristic (2016)",
+    "url": "https://typesetinthefuture.com/2016/02/18/futuristic/",
+    "publishedAt": "2026-05-12T20:16:26.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  },
+  {
+    "id": "4084e235-170b-4f49-9252-6795a64b8df7",
+    "source": "hackernews",
+    "title": "Kraftwerk's radical 1976 track",
+    "summary": "Kraftwerk's radical 1976 track",
+    "url": "https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem",
+    "publishedAt": "2026-05-12T23:13:01.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  },
+  {
+    "id": "1daae424-e794-464f-8d5e-97fa6f3d0c26",
+    "source": "hackernews",
+    "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
+    "summary": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
+    "url": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+    "publishedAt": "2026-05-12T18:12:28.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  },
+  {
+    "id": "61a461fc-dde0-4dc9-978d-667a1b241584",
+    "source": "hackernews",
+    "title": "Why senior developers fail to communicate their expertise",
+    "summary": "Why senior developers fail to communicate their expertise",
+    "url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+    "publishedAt": "2026-05-12T15:08:40.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-13T08:15:01.726Z"
+  }
+]

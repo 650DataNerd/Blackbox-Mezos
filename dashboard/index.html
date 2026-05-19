@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Black Box — Mezo Edition</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --black:#050708;--surface:#0a0d10;--raised:#0f1318;
+  --line:#ffffff0f;--line2:#ffffff18;--mid:#ffffff55;
+  --text:#e8edf2;--white:#ffffff;
+  --gold:#e8a020;--gold-dim:#e8a02022;
+  --green:#18d98b;--green-dim:#18d98b18;
+  --red:#f04060;--red-dim:#f0406018;
+  --blue:#4098f8;--blue-dim:#4098f818;
+  --orange:#f5751d;--orange-dim:#f5751d18;
+  --sans:'Space Grotesk',sans-serif;--mono:'Space Mono',monospace;
+}
+body{background:var(--black);color:var(--text);font-family:var(--sans);font-size:14px;min-height:100vh;display:flex;flex-direction:column}
+.strip{height:3px;background:linear-gradient(90deg,#f7931a 0%,var(--gold) 50%,var(--green) 100%);flex-shrink:0}
+.nav{display:flex;align-items:center;padding:0 28px;height:56px;border-bottom:1px solid var(--line);flex-shrink:0;gap:24px}
+.nav-logo{display:flex;align-items:center;gap:10px;margin-right:auto}
+.logo-sq{width:30px;height:30px;background:#f7931a;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:12px;font-weight:700;color:#000}
+.logo-wordmark{font-family:var(--mono);font-size:14px;font-weight:700;color:var(--white);letter-spacing:.12em}
+.logo-tag{font-size:10px;color:var(--mid);letter-spacing:.08em;padding-left:10px;border-left:1px solid var(--line2)}
+.nav-stat{display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+.nav-stat-val{font-family:var(--mono);font-size:18px;font-weight:700;line-height:1}
+.nav-stat-val.gold{color:var(--gold)}
+.nav-stat-val.grn{color:var(--green)}
+.nav-stat-val.btc{color:#f7931a}
+.nav-stat-label{font-size:9px;color:var(--mid);letter-spacing:.14em;text-transform:uppercase}
+.nav-sep{width:1px;height:28px;background:var(--line2)}
+.nav-clock{display:flex;flex-direction:column;align-items:flex-end;gap:2px;padding-left:16px;border-left:1px solid var(--line2)}
+.clock-main{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--white);line-height:1}
+.live-badge{display:flex;align-items:center;gap:5px;font-size:9px;color:var(--green);letter-spacing:.12em}
+.pulse{width:5px;height:5px;border-radius:50%;background:var(--green);animation:beat 1.8s infinite}
+@keyframes beat{0%,100%{opacity:1}50%{opacity:.3}}
+.grid{display:grid;grid-template-columns:240px 1fr;flex:1;overflow:hidden}
+.left{border-right:1px solid var(--line);display:flex;flex-direction:column}
+.sec-head{padding:10px 14px;font-size:9px;letter-spacing:.2em;color:var(--gold);border-bottom:1px solid var(--line);background:var(--surface);display:flex;align-items:center;justify-content:space-between;text-transform:uppercase}
+.agent{padding:14px;border-bottom:1px solid var(--line);transition:background .1s}
+.agent:hover{background:var(--raised)}
+.agent-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px}
+.agent-name{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--white);letter-spacing:.06em}
+.agent-tag{font-size:9px;padding:2px 8px;letter-spacing:.1em;text-transform:uppercase;font-family:var(--mono)}
+.t-blue{color:var(--blue);background:var(--blue-dim);border:1px solid #4098f830}
+.t-gold{color:var(--gold);background:var(--gold-dim);border:1px solid #e8a02030}
+.t-green{color:var(--green);background:var(--green-dim);border:1px solid #18d98b30}
+.kv-row{display:flex;justify-content:space-between;margin-top:5px}
+.kv-k{font-size:10px;color:var(--mid);letter-spacing:.06em;text-transform:uppercase}
+.kv-v{font-size:11px;color:var(--text);font-family:var(--mono)}
+.contracts{padding:14px;border-bottom:1px solid var(--line)}
+.contract-item{margin-bottom:8px}
+.contract-label{font-size:9px;color:var(--mid);letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px}
+.contract-addr{font-family:var(--mono);font-size:9px;color:var(--gold);word-break:break-all;line-height:1.5}
+.contract-link{font-size:9px;color:var(--blue);text-decoration:none}
+.contract-link:hover{text-decoration:underline}
+.txs{padding:14px;flex:1}
+.tx-item{margin-bottom:8px;padding:8px 10px;background:var(--raised);border:1px solid var(--line)}
+.tx-label{font-size:9px;color:var(--mid);text-transform:uppercase;letter-spacing:.08em;margin-bottom:3px}
+.tx-hash{font-family:var(--mono);font-size:9px;color:var(--blue);text-decoration:none;word-break:break-all}
+.tx-hash:hover{text-decoration:underline}
+.right{display:flex;flex-direction:column;overflow:hidden}
+.panel{display:flex;flex-direction:column;overflow:hidden;border-bottom:1px solid var(--line);flex:1}
+.panel-head{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;border-bottom:1px solid var(--line);flex-shrink:0}
+.panel-title{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--white);display:flex;align-items:center;gap:10px}
+.pdot{width:6px;height:6px;border-radius:50%}
+.dot-gold{background:var(--gold)}
+.dot-green{background:var(--green)}
+.dot-btc{background:#f7931a}
+.panel-meta{font-size:10px;color:var(--mid)}
+.panel-body{overflow-y:auto;flex:1}
+.feed-row{display:grid;border-bottom:1px solid var(--line);align-items:center;transition:background .1s;min-height:44px}
+.feed-row:hover{background:var(--raised)}
+.feed-row.hdr{background:var(--surface);position:sticky;top:0;z-index:1;min-height:32px}
+.r-reports{grid-template-columns:80px 80px 70px 1fr 80px 80px}
+.r-intel{grid-template-columns:1fr 90px 100px}
+.r-trades{grid-template-columns:80px 80px 80px 1fr 90px}
+.fc{padding:8px 14px;font-size:11px;color:var(--text);line-height:1.4}
+.fc.hd{font-size:9px;color:var(--mid);letter-spacing:.14em;text-transform:uppercase;padding:6px 14px}
+.fc.dim{color:var(--mid)}
+.fc.sm{font-size:10px;line-height:1.5}
+.chip{display:inline-flex;padding:2px 8px;font-size:9px;font-weight:700;font-family:var(--mono);letter-spacing:.1em;text-transform:uppercase}
+.c-buy{color:var(--green);background:var(--green-dim)}
+.c-sell{color:var(--red);background:var(--red-dim)}
+.c-hold{color:var(--gold);background:var(--gold-dim)}
+.c-watch{color:var(--blue);background:var(--blue-dim)}
+.c-low{color:var(--green);background:var(--green-dim)}
+.c-med{color:var(--gold);background:var(--gold-dim)}
+.c-high{color:var(--red);background:var(--red-dim)}
+.cbar{display:flex;align-items:center;gap:6px}
+.cbar-t{flex:1;height:2px;background:var(--line2)}
+.cbar-f{height:2px;background:var(--gold)}
+.cbar-p{font-family:var(--mono);font-size:10px;color:var(--mid);white-space:nowrap}
+.sent{width:5px;height:5px;border-radius:50%;flex-shrink:0}
+.s-pos{background:var(--green)}
+.s-neg{background:var(--red)}
+.s-neu{background:var(--mid)}
+.tx-a{color:var(--blue);text-decoration:none;font-size:10px;font-family:var(--mono)}
+.tx-a:hover{text-decoration:underline}
+.empty{padding:30px;color:var(--mid);text-align:center;font-size:11px;letter-spacing:.08em}
+.foot{border-top:1px solid var(--line);padding:6px 28px;background:var(--surface);display:flex;justify-content:space-between;align-items:center;font-size:9px;color:var(--mid);letter-spacing:.08em;flex-shrink:0}
+.musd-badge{color:#f7931a;font-family:var(--mono);font-size:10px}
+</style>
+</head>
+<body>
+<div class="strip"></div>
+<nav class="nav">
+  <div class="nav-logo">
+    <div class="logo-sq">BB</div>
+    <div><div class="logo-wordmark">BLACKBOX</div></div>
+    <div class="logo-tag">BITCOIN INTEL SYNDICATE · MEZO</div>
+  </div>
+  <div class="nav-stat"><div class="nav-stat-val gold" id="n-batches">—</div><div class="nav-stat-label">Batches</div></div>
+  <div class="nav-sep"></div>
+  <div class="nav-stat"><div class="nav-stat-val gold" id="n-reports">—</div><div class="nav-stat-label">Reports</div></div>
+  <div class="nav-sep"></div>
+  <div class="nav-stat"><div class="nav-stat-val grn" id="n-trades">—</div><div class="nav-stat-label">Trades</div></div>
+  <div class="nav-sep"></div>
+  <div class="nav-stat"><div class="nav-stat-val btc" id="n-musd">—</div><div class="nav-stat-label">MUSD Txs</div></div>
+  <div class="nav-sep"></div>
+  <div class="nav-clock">
+    <div class="clock-main" id="clock">--:--:--</div>
+    <div class="live-badge"><div class="pulse"></div>Live · Mezo Testnet</div>
+  </div>
+</nav>
+
+<div class="grid">
+  <div class="left">
+    <div class="sec-head"><span>Agents</span><span style="color:var(--green)">3 Live</span></div>
+    <div class="agent">
+      <div class="agent-top"><div class="agent-name">SCRAPER</div><div class="agent-tag t-blue">Data</div></div>
+      <div class="kv-row"><span class="kv-k">Earns</span><span class="kv-v musd-badge">MUSD</span></div>
+      <div class="kv-row"><span class="kv-k">Sources</span><span class="kv-v">HN · CC</span></div>
+      <div class="kv-row"><span class="kv-k">Status</span><span class="kv-v" style="color:var(--green)">● Active</span></div>
+    </div>
+    <div class="agent">
+      <div class="agent-top"><div class="agent-name">ANALYSIS</div><div class="agent-tag t-gold">Intel</div></div>
+      <div class="kv-row"><span class="kv-k">Pays</span><span class="kv-v musd-badge">1 MUSD</span></div>
+      <div class="kv-row"><span class="kv-k">Engine</span><span class="kv-v">Sentiment</span></div>
+      <div class="kv-row"><span class="kv-k">Status</span><span class="kv-v" style="color:var(--green)">● Active</span></div>
+    </div>
+    <div class="agent">
+      <div class="agent-top"><div class="agent-name">TRADING</div><div class="agent-tag t-green">Exec</div></div>
+      <div class="kv-row"><span class="kv-k">Pays</span><span class="kv-v musd-badge">2 MUSD</span></div>
+      <div class="kv-row"><span class="kv-k">Asset</span><span class="kv-v">BTC</span></div>
+      <div class="kv-row"><span class="kv-k">Status</span><span class="kv-v" style="color:var(--green)">● Active</span></div>
+    </div>
+
+    <div class="sec-head"><span>Contracts</span></div>
+    <div class="contracts">
+      <div class="contract-item">
+        <div class="contract-label">Registry</div>
+        <div class="contract-addr">0x20239a6d8F75155e43F5566CAA978eB7507abaAF</div>
+        <a class="contract-link" href="https://explorer.test.mezo.org/address/0x20239a6d8F75155e43F5566CAA978eB7507abaAF" target="_blank">View on Explorer ↗</a>
+      </div>
+      <div class="contract-item">
+        <div class="contract-label">MUSD Token</div>
+        <div class="contract-addr">0x0c6F50e77FFCAF295C5C9D74A0a4C02D2823267d</div>
+        <a class="contract-link" href="https://explorer.test.mezo.org/address/0x0c6F50e77FFCAF295C5C9D74A0a4C02D2823267d" target="_blank">View on Explorer ↗</a>
+      </div>
+    </div>
+
+    <div class="sec-head"><span>Live Txs</span></div>
+    <div class="txs">
+      <div class="tx-item">
+        <div class="tx-label">Analysis → Scraper (1 MUSD)</div>
+        <a class="tx-hash" href="https://explorer.test.mezo.org/tx/0xc9565c4e884dca14aca4dc274942d0418a75d555cb895923cb2fc672980c024b" target="_blank">0xc9565c4e...024b ↗</a>
+      </div>
+      <div class="tx-item">
+        <div class="tx-label">Trading → Analysis (2 MUSD)</div>
+        <a class="tx-hash" href="https://explorer.test.mezo.org/tx/0xdf0ecc0dadfa325059963aa6cd81bb943d8dce666dec65cf2cf29a87ad463027" target="_blank">0xdf0ecc0d...3027 ↗</a>
+      </div>
+      <div class="tx-item">
+        <div class="tx-label">Trade recorded on-chain</div>
+        <a class="tx-hash" href="https://explorer.test.mezo.org/tx/0x43d4615309a5cb9434a836105a005be6422d92309222d2bebf1ce91a61f722dc" target="_blank">0x43d46153...22dc ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title"><div class="pdot dot-gold"></div>Intelligence Reports</div>
+        <div class="panel-meta" id="rep-meta">—</div>
+      </div>
+      <div class="panel-body">
+        <div class="feed-row hdr r-reports">
+          <div class="fc hd">Time</div><div class="fc hd">Action</div><div class="fc hd">Risk</div>
+          <div class="fc hd">Summary</div><div class="fc hd">Conf</div><div class="fc hd">Tx</div>
+        </div>
+        <div id="rep-body"><div class="empty">Loading reports...</div></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title"><div class="pdot dot-green"></div>Live Intel Feed</div>
+        <div class="panel-meta" id="intel-meta">—</div>
+      </div>
+      <div class="panel-body">
+        <div class="feed-row hdr r-intel">
+          <div class="fc hd">Headline</div><div class="fc hd">Source</div><div class="fc hd">Sentiment</div>
+        </div>
+        <div id="intel-body"><div class="empty">Loading intel...</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="foot">
+  <span>Black Box · Autonomous Bitcoin Intelligence Syndicate · Mezo Testnet · Powered by MUSD</span>
+  <span id="last-upd">—</span>
+</div>
+
+<script type="module">
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+
+const SUPABASE_URL = 'https://dcoebvyqnydqqbynsmnm.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRjb2VidnlxbnlkcXFieW5zbW5tIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgzNDg5MTksImV4cCI6MjA5MzkyNDkxOX0.W171qQ1Hq1G0p-R5dMT1zvzQm1XAyjeVbmiLie5fAYM';
+const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+function clock(){document.getElementById('clock').textContent=new Date().toLocaleTimeString('en-US',{hour12:false})}
+setInterval(clock,1000);clock();
+
+function ago(s){
+  if(!s)return'—';
+  const d=(Date.now()-new Date(s))/1000;
+  if(d<60)return Math.round(d)+'s ago';
+  if(d<3600)return Math.round(d/60)+'m ago';
+  return Math.round(d/3600)+'h ago';
+}
+
+async function loadStats(){
+  try{
+    const [intel,reports,trades]=await Promise.all([
+      supabase.from('intel_batches').select('id',{count:'exact',head:true}),
+      supabase.from('reports').select('id',{count:'exact',head:true}),
+      supabase.from('trades').select('id',{count:'exact',head:true}),
+    ]);
+    document.getElementById('n-batches').textContent=intel.count??0;
+    document.getElementById('n-reports').textContent=reports.count??0;
+    document.getElementById('n-trades').textContent=trades.count??0;
+    document.getElementById('n-musd').textContent=((reports.count??0)+(trades.count??0));
+  }catch(e){}
+}
+
+async function loadReports(){
+  try{
+    const {data}=await supabase.from('reports').select('*').order('generated_at',{ascending:false}).limit(20);
+    const el=document.getElementById('rep-body');
+    document.getElementById('rep-meta').textContent=(data?.length||0)+' reports';
+    if(!data?.length){el.innerHTML='<div class="empty">No reports yet — run analysis agent</div>';return;}
+    el.innerHTML=data.map(r=>`
+      <div class="feed-row r-reports">
+        <div class="fc dim" style="font-size:10px;font-family:var(--mono)">${ago(r.generated_at)}</div>
+        <div class="fc"><span class="chip c-${r.recommended_action}">${r.recommended_action}</span></div>
+        <div class="fc"><span class="chip c-${r.risk_level==='medium'?'med':r.risk_level}">${r.risk_level}</span></div>
+        <div class="fc sm">${r.summary||'—'}</div>
+        <div class="fc"><div class="cbar"><div class="cbar-t"><div class="cbar-f" style="width:${Math.round(r.confidence*100)}%"></div></div><div class="cbar-p">${Math.round(r.confidence*100)}%</div></div></div>
+        <div class="fc">${r.paid_tx_signature?`<a class="tx-a" href="https://explorer.test.mezo.org/tx/${r.paid_tx_signature}" target="_blank">view ↗</a>`:'<span style="color:var(--mid)">—</span>'}</div>
+      </div>
+    `).join('');
+  }catch(e){}
+}
+
+async function loadIntel(){
+  try{
+    const {data}=await supabase.from('intel_batches').select('*').order('fetched_at',{ascending:false}).limit(20);
+    document.getElementById('intel-meta').textContent=(data?.length||0)+' items';
+    const el=document.getElementById('intel-body');
+    if(!data?.length){el.innerHTML='<div class="empty">No intel yet — run scraper agent</div>';return;}
+    el.innerHTML=data.map(i=>`
+      <div class="feed-row r-intel">
+        <div class="fc">${i.title}</div>
+        <div class="fc dim" style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;font-family:var(--mono)">${i.source}</div>
+        <div class="fc"><div style="display:flex;align-items:center;gap:8px"><div class="sent s-${i.sentiment==='positive'?'pos':i.sentiment==='negative'?'neg':'neu'}"></div><span style="font-size:10px;color:var(--mid)">${ago(i.fetched_at)}</span></div></div>
+      </div>
+    `).join('');
+  }catch(e){}
+}
+
+async function refresh(){
+  await Promise.all([loadStats(),loadReports(),loadIntel()]);
+  document.getElementById('last-upd').textContent='Updated '+new Date().toLocaleTimeString('en-US',{hour12:false});
+}
+refresh();setInterval(refresh,15000);
+</script>
+</body>
+</html>

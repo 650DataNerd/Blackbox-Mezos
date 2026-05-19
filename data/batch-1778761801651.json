@@ -1,0 +1,142 @@
+[
+  {
+    "id": "0e279507-b9ff-48ac-b635-6ff88d47d8f9",
+    "source": "hackernews",
+    "title": "Claude for Small Business",
+    "summary": "Claude for Small Business",
+    "url": "https://www.anthropic.com/news/claude-for-small-business",
+    "publishedAt": "2026-05-14T03:59:35.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  },
+  {
+    "id": "f167f339-5126-4d7a-a69f-6182eb798cf5",
+    "source": "hackernews",
+    "title": "Show HN: Running the second public ODoH relay",
+    "summary": "Show HN: Running the second public ODoH relay",
+    "url": "https://numa.rs/blog/posts/odoh-anonymous-dns-without-an-account.html",
+    "publishedAt": "2026-05-14T10:44:50.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  },
+  {
+    "id": "68a5c46e-02f1-4d89-8a09-fc1ef1343256",
+    "source": "hackernews",
+    "title": "Myths about /dev/urandom (2014)",
+    "summary": "Myths about /dev/urandom (2014)",
+    "url": "https://www.2uo.de/myths-about-urandom/",
+    "publishedAt": "2026-05-14T11:26:22.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  },
+  {
+    "id": "1c235393-a314-44a1-b6a0-b2bc34c21250",
+    "source": "hackernews",
+    "title": "Scorched Earth 2000 – Web",
+    "summary": "Scorched Earth 2000 – Web",
+    "url": "http://www.scorch2000.com/web/",
+    "publishedAt": "2026-05-14T00:41:29.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  },
+  {
+    "id": "84c8fc96-0039-420d-8513-f185491841ad",
+    "source": "hackernews",
+    "title": "The Tree House: A voyage to the source of a backyard dream",
+    "summary": "The Tree House: A voyage to the source of a backyard dream",
+    "url": "https://www.laphamsquarterly.org/roundtable/tree-house",
+    "publishedAt": "2026-05-11T19:41:02.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  },
+  {
+    "id": "6406da85-6b55-4135-abb6-8791e270801f",
+    "source": "hackernews",
+    "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "summary": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+    "url": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
+    "publishedAt": "2026-05-10T20:54:06.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  },
+  {
+    "id": "f1b1b194-5575-48bd-9dfd-784abffff56a",
+    "source": "hackernews",
+    "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+    "summary": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+    "url": "https://classic7.lol/",
+    "publishedAt": "2026-05-14T07:03:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  },
+  {
+    "id": "e70244d8-fd44-4c12-8e25-bcaa2bee2c71",
+    "source": "hackernews",
+    "title": "Setting up a free *.city.state.us locality domain (2025)",
+    "summary": "Setting up a free *.city.state.us locality domain (2025)",
+    "url": "https://fredchan.org/blog/locality-domains-guide/",
+    "publishedAt": "2026-05-13T14:45:18.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  },
+  {
+    "id": "4183a8ba-8db6-45a5-9016-cdba47e057f8",
+    "source": "hackernews",
+    "title": "Leaving the Physical World",
+    "summary": "Leaving the Physical World",
+    "url": "https://www.eff.org/pages/leaving-physical-world",
+    "publishedAt": "2026-05-10T13:54:54.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  },
+  {
+    "id": "28f342a9-927b-4480-a6bd-5f6d110d20fd",
+    "source": "hackernews",
+    "title": "Technical Dimensions of Live Feedback in Programming Systems",
+    "summary": "Technical Dimensions of Live Feedback in Programming Systems",
+    "url": "https://joshuahhh.com/dims-of-feedback/",
+    "publishedAt": "2026-05-10T14:56:05.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-14T12:30:01.651Z"
+  }
+]
