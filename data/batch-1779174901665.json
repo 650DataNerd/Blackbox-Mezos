@@ -1,0 +1,142 @@
+[
+  {
+    "id": "71d69d2f-6b90-4359-9e61-f885a48b9d6e",
+    "source": "hackernews",
+    "title": "The last six months in LLMs in five minutes",
+    "summary": "The last six months in LLMs in five minutes",
+    "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+    "publishedAt": "2026-05-19T01:30:42.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.664Z"
+  },
+  {
+    "id": "3eae546f-dbe3-4746-9520-2a550403e429",
+    "source": "hackernews",
+    "title": "Codex-maxxing",
+    "summary": "Codex-maxxing",
+    "url": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+    "publishedAt": "2026-05-19T04:24:45.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.665Z"
+  },
+  {
+    "id": "fdb7d6b4-6e6e-4533-bd96-09c146820f47",
+    "source": "hackernews",
+    "title": "Click (2016)",
+    "summary": "Click (2016)",
+    "url": "https://clickclickclick.click/",
+    "publishedAt": "2026-05-18T23:03:02.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.665Z"
+  },
+  {
+    "id": "e664c13f-7582-4db4-bcff-59e8e13b8c37",
+    "source": "hackernews",
+    "title": "Turn your Android phone into a ham radio transceiver",
+    "summary": "Turn your Android phone into a ham radio transceiver",
+    "url": "https://www.kv4p.com/",
+    "publishedAt": "2026-05-16T16:49:15.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.665Z"
+  },
+  {
+    "id": "bf6fef01-3b99-4bf3-8b8d-c7aa8243dad3",
+    "source": "hackernews",
+    "title": "Anyone on the Internet Can Ring Your Doorbell",
+    "summary": "Anyone on the Internet Can Ring Your Doorbell",
+    "url": "https://www.abgeo.dev/blog/anyone-can-ring-your-doorbell",
+    "publishedAt": "2026-05-17T03:59:22.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.665Z"
+  },
+  {
+    "id": "b7a2a883-3bdb-4ed7-bc44-9cfb6c6951ce",
+    "source": "hackernews",
+    "title": "PyTorch Landscape",
+    "summary": "PyTorch Landscape",
+    "url": "https://pytorch.landscape2.io",
+    "publishedAt": "2026-05-19T04:29:39.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.665Z"
+  },
+  {
+    "id": "d2f89b6f-b001-48bf-a9e9-0d5df9c7dd3c",
+    "source": "hackernews",
+    "title": "Peter Neumann has died",
+    "summary": "Peter Neumann has died",
+    "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+    "publishedAt": "2026-05-19T03:17:45.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.665Z"
+  },
+  {
+    "id": "27244d70-1e0e-46e1-8040-700755419458",
+    "source": "hackernews",
+    "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "summary": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+    "publishedAt": "2026-05-18T23:18:10.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.665Z"
+  },
+  {
+    "id": "f69e1c6e-859b-44f5-aa66-1944054842c1",
+    "source": "hackernews",
+    "title": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+    "summary": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+    "url": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+    "publishedAt": "2026-05-14T15:30:36.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.665Z"
+  },
+  {
+    "id": "0d0e898e-b123-4d0c-848a-d3bd843530c4",
+    "source": "hackernews",
+    "title": "Anthropic acquires Stainless",
+    "summary": "Anthropic acquires Stainless",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "publishedAt": "2026-05-18T17:01:21.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:15:01.665Z"
+  }
+]

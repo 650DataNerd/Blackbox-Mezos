@@ -1,0 +1,15 @@
+{
+  "id": "report-1779260295824",
+  "generatedAt": "2026-05-20T06:58:15.824Z",
+  "sourcesUsed": 10,
+  "topSignals": [
+    "The last six months in LLMs in five minutes",
+    "Codex-maxxing",
+    "Click (2016)"
+  ],
+  "riskLevel": "low",
+  "recommendedAction": "hold",
+  "confidence": 0.5,
+  "summary": "Analysed 10 items across hackernews. Sentiment: 0 bullish, 0 bearish, 10 neutral. Signal leans HOLD with low risk and 50% confidence.",
+  "paidTxHash": "0x1f7aa4e36fdb8f985450d4bb0592eeedf05ec0e98b52b04d1198ce81d41ddc74"
+}

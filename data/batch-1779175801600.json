@@ -1,0 +1,142 @@
+[
+  {
+    "id": "a7e2fdc1-635c-43b3-a930-8266eb55e850",
+    "source": "hackernews",
+    "title": "The last six months in LLMs in five minutes",
+    "summary": "The last six months in LLMs in five minutes",
+    "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+    "publishedAt": "2026-05-19T01:30:42.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  },
+  {
+    "id": "afcf7ad3-a0e0-4566-b62c-e9bb99ae8905",
+    "source": "hackernews",
+    "title": "Codex-maxxing",
+    "summary": "Codex-maxxing",
+    "url": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+    "publishedAt": "2026-05-19T04:24:45.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  },
+  {
+    "id": "e8fd8d2f-eed3-4263-9605-9e3d8eaf298e",
+    "source": "hackernews",
+    "title": "Click (2016)",
+    "summary": "Click (2016)",
+    "url": "https://clickclickclick.click/",
+    "publishedAt": "2026-05-18T23:03:02.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  },
+  {
+    "id": "9e0fc601-741b-411f-b0ab-25392c48a7f6",
+    "source": "hackernews",
+    "title": "Turn your Android phone into a ham radio transceiver",
+    "summary": "Turn your Android phone into a ham radio transceiver",
+    "url": "https://www.kv4p.com/",
+    "publishedAt": "2026-05-16T16:49:15.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  },
+  {
+    "id": "4dde8201-f4cb-4bae-b9fb-8285ed2e00e9",
+    "source": "hackernews",
+    "title": "Peter Neumann has died",
+    "summary": "Peter Neumann has died",
+    "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+    "publishedAt": "2026-05-19T03:17:45.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  },
+  {
+    "id": "639c1664-7023-41a8-804b-70616f006758",
+    "source": "hackernews",
+    "title": "PyTorch Landscape",
+    "summary": "PyTorch Landscape",
+    "url": "https://pytorch.landscape2.io",
+    "publishedAt": "2026-05-19T04:29:39.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  },
+  {
+    "id": "a4bafdde-b10c-4533-adff-677633326112",
+    "source": "hackernews",
+    "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "summary": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+    "publishedAt": "2026-05-18T23:18:10.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  },
+  {
+    "id": "b2217642-fe4f-485c-ba05-338f8910f60d",
+    "source": "hackernews",
+    "title": "Anthropic acquires Stainless",
+    "summary": "Anthropic acquires Stainless",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "publishedAt": "2026-05-18T17:01:21.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  },
+  {
+    "id": "878d2d95-b1ee-4177-b4a2-740bfd13b512",
+    "source": "hackernews",
+    "title": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+    "summary": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+    "url": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+    "publishedAt": "2026-05-14T15:30:36.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  },
+  {
+    "id": "8e5bcf54-2d63-4779-81e6-9cedec9db4ff",
+    "source": "hackernews",
+    "title": "Anyone on the Internet Can Ring Your Doorbell",
+    "summary": "Anyone on the Internet Can Ring Your Doorbell",
+    "url": "https://www.abgeo.dev/blog/anyone-can-ring-your-doorbell",
+    "publishedAt": "2026-05-17T03:59:22.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:30:01.600Z"
+  }
+]

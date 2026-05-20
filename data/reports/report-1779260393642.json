@@ -1,0 +1,15 @@
+{
+  "id": "report-1779260393642",
+  "generatedAt": "2026-05-20T06:59:53.642Z",
+  "sourcesUsed": 16,
+  "topSignals": [
+    "Bitcoin has shed $5,000 within days. ETF flows, and derivatives say this selloff",
+    "World Liberty Financial treasury company AI Financial warns in SEC filing that i",
+    "Hyperliquid's USDC deal could supercharge HYPE, pressure Circle, Coinbase margin"
+  ],
+  "riskLevel": "low",
+  "recommendedAction": "hold",
+  "confidence": 0.6,
+  "summary": "Analysed 16 items across hackernews, coindesk. Sentiment: 2 bullish, 2 bearish, 12 neutral. Signal leans HOLD with low risk and 60% confidence.",
+  "paidTxHash": "0x84a3d4ea496ac2e7d445c97b3f1535a36b8c0969eb16453b324efeb25f2e7e48"
+}

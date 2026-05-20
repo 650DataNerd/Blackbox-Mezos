@@ -1,0 +1,13 @@
+{
+  "id": "report-1779260426315",
+  "generatedAt": "2026-05-20T07:00:26.315Z",
+  "sourcesUsed": 10,
+  "topSignals": [
+    "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries"
+  ],
+  "riskLevel": "low",
+  "recommendedAction": "hold",
+  "confidence": 0.55,
+  "summary": "Analysed 10 items across hackernews. Sentiment: 0 bullish, 1 bearish, 9 neutral. Signal leans HOLD with low risk and 55% confidence.",
+  "paidTxHash": "0x0bcad625522c9979a5302bf1a8624bb924d4e64bc2a457924075edd9870307a4"
+}

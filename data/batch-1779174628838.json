@@ -1,0 +1,218 @@
+[
+  {
+    "id": "0a0b9ee0-07db-4a8f-809f-510bc84086f4",
+    "source": "hackernews",
+    "title": "The last six months in LLMs in five minutes",
+    "summary": "The last six months in LLMs in five minutes",
+    "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+    "publishedAt": "2026-05-19T01:30:42.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:28.838Z"
+  },
+  {
+    "id": "613d9fe9-ae1c-4e22-bbe2-511bb87586ad",
+    "source": "hackernews",
+    "title": "Click (2016)",
+    "summary": "Click (2016)",
+    "url": "https://clickclickclick.click/",
+    "publishedAt": "2026-05-18T23:03:02.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:28.838Z"
+  },
+  {
+    "id": "6a660c76-a2fd-49dd-829f-dd4a21c39857",
+    "source": "hackernews",
+    "title": "Codex-maxxing",
+    "summary": "Codex-maxxing",
+    "url": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+    "publishedAt": "2026-05-19T04:24:45.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:28.838Z"
+  },
+  {
+    "id": "4539253c-8cb7-4cdb-be12-272c1c44ffcc",
+    "source": "hackernews",
+    "title": "Turn your Android phone into a ham radio transceiver",
+    "summary": "Turn your Android phone into a ham radio transceiver",
+    "url": "https://www.kv4p.com/",
+    "publishedAt": "2026-05-16T16:49:15.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:28.838Z"
+  },
+  {
+    "id": "bacd6f44-0649-426d-848e-9524bff81971",
+    "source": "hackernews",
+    "title": "Anyone on the Internet Can Ring Your Doorbell",
+    "summary": "Anyone on the Internet Can Ring Your Doorbell",
+    "url": "https://www.abgeo.dev/blog/anyone-can-ring-your-doorbell",
+    "publishedAt": "2026-05-17T03:59:22.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:28.838Z"
+  },
+  {
+    "id": "8ca9f1a5-0652-4131-af2b-f446f29a43ce",
+    "source": "hackernews",
+    "title": "PyTorch Landscape",
+    "summary": "PyTorch Landscape",
+    "url": "https://pytorch.landscape2.io",
+    "publishedAt": "2026-05-19T04:29:39.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:28.838Z"
+  },
+  {
+    "id": "982d6dae-73e4-4559-a5a5-f2816aa39183",
+    "source": "hackernews",
+    "title": "Peter Neumann has died",
+    "summary": "Peter Neumann has died",
+    "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+    "publishedAt": "2026-05-19T03:17:45.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:28.838Z"
+  },
+  {
+    "id": "9423670d-003d-4a27-9e4d-e3d40152e80d",
+    "source": "hackernews",
+    "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "summary": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+    "publishedAt": "2026-05-18T23:18:10.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:28.838Z"
+  },
+  {
+    "id": "59593208-3d44-4d16-aa27-f74397c34159",
+    "source": "coindesk",
+    "title": "Bitcoin has shed $5,000 within days. ETF flows, and derivatives say this selloff could worsen",
+    "summary": "Bitcoin has shed $5,000 within days. ETF flows, and derivatives say this selloff could worsen",
+    "url": "https://www.coindesk.com/",
+    "publishedAt": "2026-05-19T07:10:27.874Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:27.874Z"
+  },
+  {
+    "id": "6544fd26-637f-409c-90cb-e2dbca028d34",
+    "source": "coindesk",
+    "title": "World Liberty Financial treasury company AI Financial warns in SEC filing that it may not survive the year",
+    "summary": "World Liberty Financial treasury company AI Financial warns in SEC filing that it may not survive the year",
+    "url": "https://www.coindesk.com/",
+    "publishedAt": "2026-05-19T07:10:27.875Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:27.875Z"
+  },
+  {
+    "id": "13196bb2-90b9-4428-a061-f6aa4006c145",
+    "source": "coindesk",
+    "title": "SEC to propose tokenized stock framework as Wall Street efforts deepen: Bloomberg",
+    "summary": "SEC to propose tokenized stock framework as Wall Street efforts deepen: Bloomberg",
+    "url": "https://www.coindesk.com/markets/2026/05/19/bitcoin-has-shed-usd5-000-within-days-the-data-says-this-selloff-could-worsen",
+    "publishedAt": "2026-05-19T07:10:27.875Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:27.875Z"
+  },
+  {
+    "id": "382c3ab0-f849-4bb5-b2d1-5a40629b6190",
+    "source": "coindesk",
+    "title": "Minnesotan banks and credit unions set to provide crypto custody Aug. 1",
+    "summary": "Minnesotan banks and credit unions set to provide crypto custody Aug. 1",
+    "url": "https://www.coindesk.com/markets/2026/05/19/world-liberty-financial-wlfi-treasury-company-ai-financial-warns-in-sec-filing-that-it-may-not-survive-the-year",
+    "publishedAt": "2026-05-19T07:10:27.875Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:27.875Z"
+  },
+  {
+    "id": "e63e95cf-bae2-429d-a24d-acdc6b0883fd",
+    "source": "coindesk",
+    "title": "Hyperliquid's USDC deal could supercharge HYPE, pressure Circle, Coinbase margins, analysts say",
+    "summary": "Hyperliquid's USDC deal could supercharge HYPE, pressure Circle, Coinbase margins, analysts say",
+    "url": "https://www.coindesk.com/policy/2026/05/18/sec-to-propose-tokenized-stock-framework-as-wall-street-efforts-deepen-bloomberg",
+    "publishedAt": "2026-05-19T07:10:27.875Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:27.875Z"
+  },
+  {
+    "id": "4b348d26-0c41-4999-aa26-61677cdb7253",
+    "source": "coindesk",
+    "title": "Revolut wants to take Dogecoin mainstream with its new physical payment card",
+    "summary": "Revolut wants to take Dogecoin mainstream with its new physical payment card",
+    "url": "https://www.coindesk.com/policy/2026/05/18/minnesotan-banks-and-credit-unions-set-to-provide-crypto-custody-august-1",
+    "publishedAt": "2026-05-19T07:10:27.875Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:27.875Z"
+  },
+  {
+    "id": "e65e1fc4-a2b6-4f1b-9030-bb3137f596b9",
+    "source": "coindesk",
+    "title": "Solana is shedding its memecoin reputation as big banks move billions into its ecosystem",
+    "summary": "Solana is shedding its memecoin reputation as big banks move billions into its ecosystem",
+    "url": "https://www.coindesk.com/markets/2026/05/18/hyperliquid-s-usdc-deal-could-supercharge-hype-pressure-circle-coinbase-margins-analysts-say",
+    "publishedAt": "2026-05-19T07:10:27.875Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:27.875Z"
+  },
+  {
+    "id": "ee5e4904-cef7-4f1f-901e-eb6ee1b4bfa2",
+    "source": "coindesk",
+    "title": "The Ethereum Foundation is facing a wave of high-profile departures as its internal shakeup deepens",
+    "summary": "The Ethereum Foundation is facing a wave of high-profile departures as its internal shakeup deepens",
+    "url": "https://www.coindesk.com/markets/2026/05/18/revolut-wants-to-take-dogecoin-mainstream-with-its-new-physical-payment-card",
+    "publishedAt": "2026-05-19T07:10:27.875Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:10:27.875Z"
+  }
+]

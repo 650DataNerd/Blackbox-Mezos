@@ -1,0 +1,218 @@
+[
+  {
+    "id": "837adb72-30d4-4559-ac6d-4baa4e83347d",
+    "source": "hackernews",
+    "title": "The last six months in LLMs in five minutes",
+    "summary": "The last six months in LLMs in five minutes",
+    "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+    "publishedAt": "2026-05-19T01:30:42.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.490Z"
+  },
+  {
+    "id": "8a8b4a87-3a1b-4676-829e-7086b78ee158",
+    "source": "hackernews",
+    "title": "Click (2016)",
+    "summary": "Click (2016)",
+    "url": "https://clickclickclick.click/",
+    "publishedAt": "2026-05-18T23:03:02.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.490Z"
+  },
+  {
+    "id": "d648f7f8-cdf6-4521-b668-8c10ea5532be",
+    "source": "hackernews",
+    "title": "Turn your Android phone into a ham radio transceiver",
+    "summary": "Turn your Android phone into a ham radio transceiver",
+    "url": "https://www.kv4p.com/",
+    "publishedAt": "2026-05-16T16:49:15.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.490Z"
+  },
+  {
+    "id": "fd85ccd7-f1b6-40c8-b2d8-9810ed0b87a0",
+    "source": "hackernews",
+    "title": "Peter Neumann has died",
+    "summary": "Peter Neumann has died",
+    "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+    "publishedAt": "2026-05-19T03:17:45.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.490Z"
+  },
+  {
+    "id": "c7ff2eaa-bc48-46ec-9a56-2671579903fe",
+    "source": "hackernews",
+    "title": "PyTorch Landscape",
+    "summary": "PyTorch Landscape",
+    "url": "https://pytorch.landscape2.io",
+    "publishedAt": "2026-05-19T04:29:39.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.490Z"
+  },
+  {
+    "id": "869a214a-a85b-4dac-aae7-7c8a1149c37e",
+    "source": "hackernews",
+    "title": "Anthropic acquires Stainless",
+    "summary": "Anthropic acquires Stainless",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "publishedAt": "2026-05-18T17:01:21.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.490Z"
+  },
+  {
+    "id": "d3dff28b-30a3-4fa1-b0a4-29741f1db74b",
+    "source": "hackernews",
+    "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "summary": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+    "publishedAt": "2026-05-18T23:18:10.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.490Z"
+  },
+  {
+    "id": "a0fbc4cd-8db9-4c1f-9b6f-e5ef525478e2",
+    "source": "hackernews",
+    "title": "Cursor Introduces Composer 2.5",
+    "summary": "Cursor Introduces Composer 2.5",
+    "url": "https://cursor.com/blog/composer-2-5",
+    "publishedAt": "2026-05-18T17:20:43.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.490Z"
+  },
+  {
+    "id": "ce9981bc-5e8e-4f76-9624-3f3bb1253c8a",
+    "source": "coindesk",
+    "title": "Bitcoin has shed $5,000 within days. ETF flows, derivatives say the selloff could worsen",
+    "summary": "Bitcoin has shed $5,000 within days. ETF flows, derivatives say the selloff could worsen",
+    "url": "https://www.coindesk.com/",
+    "publishedAt": "2026-05-19T07:45:00.643Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:00.643Z"
+  },
+  {
+    "id": "a014632d-d8f7-4a6f-b521-b0b2afc1885b",
+    "source": "coindesk",
+    "title": "World Liberty Financial treasury company AI Financial warns in SEC filing that it may not survive the year",
+    "summary": "World Liberty Financial treasury company AI Financial warns in SEC filing that it may not survive the year",
+    "url": "https://www.coindesk.com/",
+    "publishedAt": "2026-05-19T07:45:00.643Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:00.643Z"
+  },
+  {
+    "id": "4931ec7e-2d92-48c1-9f39-52e4644a63a5",
+    "source": "coindesk",
+    "title": "SEC to propose tokenized stock framework as Wall Street efforts deepen: Bloomberg",
+    "summary": "SEC to propose tokenized stock framework as Wall Street efforts deepen: Bloomberg",
+    "url": "https://www.coindesk.com/markets/2026/05/19/bitcoin-has-shed-usd5-000-within-days-the-data-says-this-selloff-could-worsen",
+    "publishedAt": "2026-05-19T07:45:00.644Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:00.644Z"
+  },
+  {
+    "id": "2882a025-40db-4fc2-a455-a52726e18c32",
+    "source": "coindesk",
+    "title": "Minnesotan banks and credit unions set to provide crypto custody Aug. 1",
+    "summary": "Minnesotan banks and credit unions set to provide crypto custody Aug. 1",
+    "url": "https://www.coindesk.com/markets/2026/05/19/world-liberty-financial-wlfi-treasury-company-ai-financial-warns-in-sec-filing-that-it-may-not-survive-the-year",
+    "publishedAt": "2026-05-19T07:45:00.644Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:00.644Z"
+  },
+  {
+    "id": "2fcc8088-49ef-4d33-ae9e-f0978a01ea27",
+    "source": "coindesk",
+    "title": "Hyperliquid's USDC deal could supercharge HYPE, pressure Circle, Coinbase margins, analysts say",
+    "summary": "Hyperliquid's USDC deal could supercharge HYPE, pressure Circle, Coinbase margins, analysts say",
+    "url": "https://www.coindesk.com/policy/2026/05/18/sec-to-propose-tokenized-stock-framework-as-wall-street-efforts-deepen-bloomberg",
+    "publishedAt": "2026-05-19T07:45:00.644Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:00.644Z"
+  },
+  {
+    "id": "ab88aebe-9aca-45f6-9a59-cf14e15dcdc9",
+    "source": "coindesk",
+    "title": "Revolut wants to take Dogecoin mainstream with its new physical payment card",
+    "summary": "Revolut wants to take Dogecoin mainstream with its new physical payment card",
+    "url": "https://www.coindesk.com/policy/2026/05/18/minnesotan-banks-and-credit-unions-set-to-provide-crypto-custody-august-1",
+    "publishedAt": "2026-05-19T07:45:00.644Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:00.644Z"
+  },
+  {
+    "id": "9cf53776-18a4-4ac7-a8a4-1093003bdb86",
+    "source": "coindesk",
+    "title": "Solana is shedding its memecoin reputation as big banks move billions into its ecosystem",
+    "summary": "Solana is shedding its memecoin reputation as big banks move billions into its ecosystem",
+    "url": "https://www.coindesk.com/markets/2026/05/18/hyperliquid-s-usdc-deal-could-supercharge-hype-pressure-circle-coinbase-margins-analysts-say",
+    "publishedAt": "2026-05-19T07:45:00.644Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:00.644Z"
+  },
+  {
+    "id": "f89dda8b-69e6-4803-a5c2-683f57ef2b83",
+    "source": "coindesk",
+    "title": "The Ethereum Foundation is facing a wave of high-profile departures as its internal shakeup deepens",
+    "summary": "The Ethereum Foundation is facing a wave of high-profile departures as its internal shakeup deepens",
+    "url": "https://www.coindesk.com/markets/2026/05/18/revolut-wants-to-take-dogecoin-mainstream-with-its-new-physical-payment-card",
+    "publishedAt": "2026-05-19T07:45:00.644Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:00.644Z"
+  }
+]

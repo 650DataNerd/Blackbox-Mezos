@@ -1,0 +1,142 @@
+[
+  {
+    "id": "06f984ea-682b-46b7-ab53-f2a36b04fc34",
+    "source": "hackernews",
+    "title": "The last six months in LLMs in five minutes",
+    "summary": "The last six months in LLMs in five minutes",
+    "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+    "publishedAt": "2026-05-19T01:30:42.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.884Z"
+  },
+  {
+    "id": "11c34e0c-0bf3-4b8c-b5fc-160a542f74f3",
+    "source": "hackernews",
+    "title": "Codex-maxxing",
+    "summary": "Codex-maxxing",
+    "url": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+    "publishedAt": "2026-05-19T04:24:45.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.885Z"
+  },
+  {
+    "id": "69f23b23-f92e-44cf-9418-77f596032473",
+    "source": "hackernews",
+    "title": "Click (2016)",
+    "summary": "Click (2016)",
+    "url": "https://clickclickclick.click/",
+    "publishedAt": "2026-05-18T23:03:02.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.885Z"
+  },
+  {
+    "id": "e6adad4d-280d-4c6e-b8de-b30940c3f797",
+    "source": "hackernews",
+    "title": "PyTorch Landscape",
+    "summary": "PyTorch Landscape",
+    "url": "https://pytorch.landscape2.io",
+    "publishedAt": "2026-05-19T04:29:39.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.885Z"
+  },
+  {
+    "id": "5ddd536c-c38c-4818-9ac9-7e5d23d995af",
+    "source": "hackernews",
+    "title": "Turn your Android phone into a ham radio transceiver",
+    "summary": "Turn your Android phone into a ham radio transceiver",
+    "url": "https://www.kv4p.com/",
+    "publishedAt": "2026-05-16T16:49:15.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.885Z"
+  },
+  {
+    "id": "19a63796-04eb-46ac-b66f-aa335361363b",
+    "source": "hackernews",
+    "title": "Anyone on the Internet Can Ring Your Doorbell",
+    "summary": "Anyone on the Internet Can Ring Your Doorbell",
+    "url": "https://www.abgeo.dev/blog/anyone-can-ring-your-doorbell",
+    "publishedAt": "2026-05-17T03:59:22.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.885Z"
+  },
+  {
+    "id": "a7a3cd85-d53f-4fb6-80a8-2e16e75a51b8",
+    "source": "hackernews",
+    "title": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+    "summary": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+    "url": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+    "publishedAt": "2026-05-14T15:30:36.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.885Z"
+  },
+  {
+    "id": "ee1ecf83-b1e4-427f-bea9-fd15ab018c6a",
+    "source": "hackernews",
+    "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "summary": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+    "publishedAt": "2026-05-18T23:18:10.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.885Z"
+  },
+  {
+    "id": "b258134e-8166-4d4b-a76c-e5d086ef7a84",
+    "source": "hackernews",
+    "title": "Anthropic acquires Stainless",
+    "summary": "Anthropic acquires Stainless",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "publishedAt": "2026-05-18T17:01:21.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.885Z"
+  },
+  {
+    "id": "c17082c4-fe5f-4fb4-8e28-d9838e935ef0",
+    "source": "hackernews",
+    "title": "Peter Neumann has died",
+    "summary": "Peter Neumann has died",
+    "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+    "publishedAt": "2026-05-19T03:17:45.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T06:47:08.885Z"
+  }
+]

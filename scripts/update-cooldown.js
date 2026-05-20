@@ -6,9 +6,9 @@ async function main() {
   const ABI = ["function setCooldown(uint256 seconds_) external"];
   const [deployer] = await ethers.getSigners();
   const registry = new ethers.Contract(REGISTRY, ABI, deployer);
-  const tx = await registry.setCooldown(10);
+  const tx = await registry.setCooldown(5);
   await tx.wait();
-  console.log("✅ Cooldown set to 10 seconds — tx:", tx.hash);
+  console.log("✅ Cooldown set to 5 seconds — tx:", tx.hash);
 }
 
 main().catch(console.error);

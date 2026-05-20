@@ -1,0 +1,142 @@
+[
+  {
+    "id": "c420f693-456d-43db-a991-546a8c10faab",
+    "source": "hackernews",
+    "title": "The last six months in LLMs in five minutes",
+    "summary": "The last six months in LLMs in five minutes",
+    "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+    "publishedAt": "2026-05-19T01:30:42.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  },
+  {
+    "id": "48fcb0c4-fda2-4d1e-8cc5-b2a9c47e7056",
+    "source": "hackernews",
+    "title": "Click (2016)",
+    "summary": "Click (2016)",
+    "url": "https://clickclickclick.click/",
+    "publishedAt": "2026-05-18T23:03:02.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  },
+  {
+    "id": "b32d00c3-f4c5-47dc-aec0-755ed3803802",
+    "source": "hackernews",
+    "title": "Turn your Android phone into a ham radio transceiver",
+    "summary": "Turn your Android phone into a ham radio transceiver",
+    "url": "https://www.kv4p.com/",
+    "publishedAt": "2026-05-16T16:49:15.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  },
+  {
+    "id": "610ed6ea-7409-4731-90fd-1acd287f2092",
+    "source": "hackernews",
+    "title": "Peter Neumann has died",
+    "summary": "Peter Neumann has died",
+    "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+    "publishedAt": "2026-05-19T03:17:45.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  },
+  {
+    "id": "d73162db-ba4c-479a-a8ee-70bd7d975e65",
+    "source": "hackernews",
+    "title": "PyTorch Landscape",
+    "summary": "PyTorch Landscape",
+    "url": "https://pytorch.landscape2.io",
+    "publishedAt": "2026-05-19T04:29:39.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  },
+  {
+    "id": "cf4005db-58be-490d-9536-cbaf4e9a6fa7",
+    "source": "hackernews",
+    "title": "Anthropic acquires Stainless",
+    "summary": "Anthropic acquires Stainless",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "publishedAt": "2026-05-18T17:01:21.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  },
+  {
+    "id": "6854f443-8037-4230-81b1-0dc285baa301",
+    "source": "hackernews",
+    "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "summary": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+    "publishedAt": "2026-05-18T23:18:10.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  },
+  {
+    "id": "88d51a9b-cbba-4191-a621-3f084318c877",
+    "source": "hackernews",
+    "title": "Cursor Introduces Composer 2.5",
+    "summary": "Cursor Introduces Composer 2.5",
+    "url": "https://cursor.com/blog/composer-2-5",
+    "publishedAt": "2026-05-18T17:20:43.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  },
+  {
+    "id": "8f703f96-64dd-4971-a18a-1dff417c3559",
+    "source": "hackernews",
+    "title": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+    "summary": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+    "url": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+    "publishedAt": "2026-05-14T15:30:36.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  },
+  {
+    "id": "2bea686a-2796-4907-8279-f4c4991f23a2",
+    "source": "hackernews",
+    "title": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
+    "summary": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
+    "url": "https://github.com/2b2tplace/1m_release",
+    "publishedAt": "2026-05-18T14:13:07.000Z",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-19T07:45:01.816Z"
+  }
+]
