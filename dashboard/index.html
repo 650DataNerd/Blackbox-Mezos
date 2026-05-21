@@ -134,18 +134,21 @@ body{background:var(--black);color:var(--text);font-family:var(--sans);font-size
       <div class="kv-row"><span class="kv-k">Earns</span><span class="kv-v musd-badge">MUSD</span></div>
       <div class="kv-row"><span class="kv-k">Sources</span><span class="kv-v">HN · CC</span></div>
       <div class="kv-row"><span class="kv-k">Status</span><span class="kv-v" style="color:var(--green)">● Active</span></div>
+      <div class="kv-row"><span class="kv-k">Balance</span><span class="kv-v" id="bal-scraper" style="color:var(--gold)">...</span></div>
     </div>
     <div class="agent">
       <div class="agent-top"><div class="agent-name">ANALYSIS</div><div class="agent-tag t-gold">Intel</div></div>
       <div class="kv-row"><span class="kv-k">Pays</span><span class="kv-v musd-badge">1 MUSD</span></div>
       <div class="kv-row"><span class="kv-k">Engine</span><span class="kv-v">Sentiment</span></div>
       <div class="kv-row"><span class="kv-k">Status</span><span class="kv-v" style="color:var(--green)">● Active</span></div>
+      <div class="kv-row"><span class="kv-k">Balance</span><span class="kv-v" id="bal-analysis" style="color:var(--gold)">...</span></div>
     </div>
     <div class="agent">
       <div class="agent-top"><div class="agent-name">TRADING</div><div class="agent-tag t-green">Exec</div></div>
       <div class="kv-row"><span class="kv-k">Pays</span><span class="kv-v musd-badge">2 MUSD</span></div>
       <div class="kv-row"><span class="kv-k">Asset</span><span class="kv-v">BTC</span></div>
       <div class="kv-row"><span class="kv-k">Status</span><span class="kv-v" style="color:var(--green)">● Active</span></div>
+      <div class="kv-row"><span class="kv-k">Balance</span><span class="kv-v" id="bal-trading" style="color:var(--gold)">...</span></div>
     </div>
 
     <div class="sec-head"><span>Contracts</span></div>
@@ -217,9 +220,47 @@ body{background:var(--black);color:var(--text);font-family:var(--sans);font-size
 <script type="module">
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
 
+
 const SUPABASE_URL = 'https://dcoebvyqnydqqbynsmnm.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRjb2VidnlxbnlkcXFieW5zbW5tIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgzNDg5MTksImV4cCI6MjA5MzkyNDkxOX0.W171qQ1Hq1G0p-R5dMT1zvzQm1XAyjeVbmiLie5fAYM';
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+const MEZO_RPC = 'https://rpc.test.mezo.org';
+const MUSD_ADDRESS = '0xAA59d95213Adf34D235813032D14D81e76A9a9cd';
+const MUSD_ABI = ['function balanceOf(address) view returns (uint256)'];
+
+const AGENTS = {
+  scraper:  '0xb783830dc5CEC1CC6eE11b5F9d1cC6A2889D8dEb',
+  analysis: '0x5f1de585a545e5B88c89493357af7f107DF3068D',
+  trading:  '0x11b2243eE34243d04D0824f384383825CA5F3816',
+};
+
+async function loadBalances() {
+  try {
+    for (const [name, address] of Object.entries(AGENTS)) {
+      // Use eth_call to balanceOf via JSON-RPC directly
+      const data = '0x70a08231000000000000000000000000' + address.slice(2).toLowerCase();
+      const body = JSON.stringify({
+        jsonrpc: '2.0', id: 1, method: 'eth_call',
+        params: [{ to: MUSD_ADDRESS, data }, 'latest']
+      });
+      const res = await fetch(MEZO_RPC, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body
+      });
+      const json = await res.json();
+      if (json.result && json.result !== '0x') {
+        const wei = BigInt(json.result);
+        const formatted = (Number(wei) / 1e18).toFixed(2);
+        const el = document.getElementById('bal-' + name);
+        if (el) el.textContent = formatted + ' MUSD';
+      }
+    }
+  } catch(e) {
+    console.log('Balance fetch failed:', e.message);
+  }
+}
 
 function clock(){document.getElementById('clock').textContent=new Date().toLocaleTimeString('en-US',{hour12:false})}
 setInterval(clock,1000);clock();
@@ -282,6 +323,7 @@ async function loadIntel(){
 }
 
 async function refresh(){
+  await loadBalances();
   await Promise.all([loadStats(),loadReports(),loadIntel()]);
   document.getElementById('last-upd').textContent='Updated '+new Date().toLocaleTimeString('en-US',{hour12:false});
 }
