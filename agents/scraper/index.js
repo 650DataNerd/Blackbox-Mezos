@@ -15,7 +15,7 @@ if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 async function fetchHackerNews() {
   try {
     const topRes = await axios.get("https://hacker-news.firebaseio.com/v0/topstories.json", { timeout: 8000 });
-    const ids = topRes.data.slice(0, 8);
+    const ids = topRes.data.slice(0, 6);
     const items = await Promise.all(
       ids.map(id => axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json`, { timeout: 5000 }).then(r => r.data).catch(() => null))
     );
@@ -38,32 +38,29 @@ async function fetchHackerNews() {
 
 async function fetchCoinDeskRSS() {
   try {
-    const res = await axios.get("https://www.coindesk.com/arc/outboundfeeds/rss/", { 
+    const res = await axios.get("https://www.coindesk.com/arc/outboundfeeds/rss/", {
       timeout: 8000,
       headers: { "User-Agent": "Mozilla/5.0" }
     });
     const items = [];
-    const matches = res.data.matchAll(/<title><!\[CDATA\[(.*?)\]\]><\/title>|<title>(.*?)<\/title>/g);
-    const links = res.data.matchAll(/<link>(.*?)<\/link>/g);
-    const linkArr = [...links].map(m => m[1]).filter(l => l.includes("coindesk.com"));
-    let idx = 0;
-    for (const match of matches) {
-      const title = (match[1] || match[2] || "").trim();
-      if (title && !title.includes("CoinDesk") && idx < 8) {
+    const matches = [...res.data.matchAll(/<title><!\[CDATA\[(.*?)\]\]><\/title>/g)];
+    const links = [...res.data.matchAll(/<link>(https?:\/\/www\.coindesk\.com[^<]+)<\/link>/g)];
+    matches.slice(0, 8).forEach((match, idx) => {
+      const title = match[1].trim();
+      if (title && !title.includes("CoinDesk")) {
         items.push({
           id: crypto.randomUUID(),
           source: "coindesk",
           title,
           summary: title,
-          url: linkArr[idx] || "https://coindesk.com",
+          url: links[idx]?.[1] || "https://coindesk.com",
           publishedAt: new Date().toISOString(),
           tags: ["crypto", "bitcoin"],
           sentiment: "neutral",
           fetchedAt: new Date().toISOString(),
         });
-        idx++;
       }
-    }
+    });
     return items;
   } catch (err) {
     logger.warn("CoinDesk fetch failed", { agent: AGENT_ID, error: err.message });
@@ -71,75 +68,43 @@ async function fetchCoinDeskRSS() {
   }
 }
 
-async function fetchCryptoPanicFree() {
+async function fetchNewsAPI() {
+  const key = process.env.NEWS_API_KEY;
+  if (!key) return [];
   try {
+    const queries = ["bitcoin", "cryptocurrency market", "geopolitical economy"];
+    const query = queries[Math.floor(Math.random() * queries.length)];
     const res = await axios.get(
-      "https://cryptopanic.com/api/free/v1/posts/?auth_token=free&kind=news&filter=hot",
+      `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&sortBy=publishedAt&pageSize=8&language=en&apiKey=${key}`,
       { timeout: 8000 }
     );
-    const results = res.data?.results ?? [];
-    return results.slice(0, 8).map(item => ({
+    const articles = res.data?.articles ?? [];
+    return articles.filter(a => a.title && a.title !== "[Removed]").map(a => ({
       id: crypto.randomUUID(),
-      source: "cryptopanic",
-      title: item.title,
-      summary: item.title,
-      url: item.url || "https://cryptopanic.com",
-      publishedAt: item.published_at || new Date().toISOString(),
-      tags: item.currencies?.map(c => c.code) ?? ["crypto"],
-      sentiment: item.votes?.positive > item.votes?.negative ? "positive" 
-               : item.votes?.negative > item.votes?.positive ? "negative" 
-               : "neutral",
+      source: "newsapi:" + (a.source?.name || "unknown"),
+      title: a.title,
+      summary: a.description || a.title,
+      url: a.url,
+      publishedAt: a.publishedAt,
+      tags: ["news", query],
+      sentiment: "neutral",
       fetchedAt: new Date().toISOString(),
     }));
   } catch (err) {
-    logger.warn("CryptoPanic fetch failed", { agent: AGENT_ID, error: err.message });
-    return [];
-  }
-}
-
-async function fetchBitcoinMagazineRSS() {
-  try {
-    const res = await axios.get("https://bitcoinmagazine.com/.rss/full/", {
-      timeout: 8000,
-      headers: { "User-Agent": "Mozilla/5.0" }
-    });
-    const items = [];
-    const matches = res.data.matchAll(/<title><!\[CDATA\[(.*?)\]\]><\/title>/g);
-    let idx = 0;
-    for (const match of matches) {
-      const title = match[1].trim();
-      if (title && idx < 6) {
-        items.push({
-          id: crypto.randomUUID(),
-          source: "bitcoinmagazine",
-          title,
-          summary: title,
-          url: "https://bitcoinmagazine.com",
-          publishedAt: new Date().toISOString(),
-          tags: ["bitcoin", "crypto"],
-          sentiment: "neutral",
-          fetchedAt: new Date().toISOString(),
-        });
-        idx++;
-      }
-    }
-    return items;
-  } catch (err) {
-    logger.warn("Bitcoin Magazine fetch failed", { agent: AGENT_ID, error: err.message });
+    logger.warn("NewsAPI fetch failed", { agent: AGENT_ID, error: err.message });
     return [];
   }
 }
 
 async function runScrapeCycle(wallet) {
   logger.info("Starting scrape cycle", { agent: AGENT_ID });
-  const [hnItems, cdItems, cpItems, bmItems] = await Promise.all([
+  const [hnItems, cdItems, naItems] = await Promise.all([
     fetchHackerNews(),
     fetchCoinDeskRSS(),
-    fetchCryptoPanicFree(),
-    fetchBitcoinMagazineRSS(),
+    fetchNewsAPI(),
   ]);
 
-  const allItems = [...hnItems, ...cdItems, ...cpItems, ...bmItems];
+  const allItems = [...hnItems, ...cdItems, ...naItems];
 
   if (allItems.length === 0) {
     logger.warn("No items fetched", { agent: AGENT_ID });
@@ -153,7 +118,7 @@ async function runScrapeCycle(wallet) {
     await saveIntelItems(allItems);
     logger.info(`Saved ${allItems.length} items to Supabase`, {
       agent: AGENT_ID,
-      sources: [...new Set(allItems.map(i => i.source))].join(", "),
+      sources: [...new Set(allItems.map(i => i.source.split(":")[0]))].join(", "),
     });
   } catch (err) {
     logger.warn("Supabase save failed", { agent: AGENT_ID, error: err.message });

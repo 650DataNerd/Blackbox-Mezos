@@ -1,0 +1,10 @@
+{
+  "id": "trade-1779685231390",
+  "executedAt": "2026-05-25T05:00:31.390Z",
+  "action": "buy",
+  "asset": "BTC",
+  "basedOnReportId": "report-1779684657842",
+  "txHash": "0xc317080126640e605337aaa44a413a12aea6408f842c4320f7bb40e6805a5570",
+  "status": "simulated",
+  "note": "Buy signal — low risk"
+}

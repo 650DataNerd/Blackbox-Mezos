@@ -1,0 +1,15 @@
+{
+  "id": "report-1779684657842",
+  "generatedAt": "2026-05-25T04:50:57.842Z",
+  "sourcesUsed": 22,
+  "topSignals": [
+    "Bug 1950764: Work Around Crash on Intel Raptor Lake CPU",
+    "Coinbase does not fear competition from Wall Street, says exchange executive",
+    "Crypto and the Fed: State of Crypto"
+  ],
+  "riskLevel": "low",
+  "recommendedAction": "buy",
+  "confidence": 0.85,
+  "summary": "Analysed 22 items across hackernews, coindesk, newsapi:Cointelegraph, newsapi:Crypto Briefing, newsapi:Pypi.org, newsapi:GlobeNewswire. Sentiment: 14 bullish, 2 bearish, 6 neutral. Signal leans BUY with low risk and 85% confidence.",
+  "paidTxHash": "0x521fab152465605b77ab7561f6913d11bddd2c29c2cd721074c2c16b0cdf4dd8"
+}

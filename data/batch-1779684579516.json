@@ -1,0 +1,304 @@
+[
+  {
+    "id": "0488b651-921d-4db6-8061-3c809aa2e57f",
+    "source": "hackernews",
+    "title": "The Eternal Sloptember",
+    "summary": "The Eternal Sloptember",
+    "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+    "publishedAt": "2026-05-25T03:47:24.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.516Z"
+  },
+  {
+    "id": "a3526da0-8c9d-4257-8946-5fc998229c46",
+    "source": "hackernews",
+    "title": "Show HN: Audiomass – a free, open-source multitrack audio editor for the web",
+    "summary": "Show HN: Audiomass – a free, open-source multitrack audio editor for the web",
+    "url": "https://audiomass.co/?multitrack=1",
+    "publishedAt": "2026-05-24T15:25:43.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.516Z"
+  },
+  {
+    "id": "a7ad37b8-14e3-4cab-b738-2dbb7446d162",
+    "source": "hackernews",
+    "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+    "summary": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+    "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+    "publishedAt": "2026-05-24T13:02:06.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.516Z"
+  },
+  {
+    "id": "07fa9f80-da7c-440b-a363-bc7953eec22c",
+    "source": "hackernews",
+    "title": "Migrating from Go to Rust",
+    "summary": "Migrating from Go to Rust",
+    "url": "https://corrode.dev/learn/migration-guides/go-to-rust/",
+    "publishedAt": "2026-05-24T18:31:42.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.516Z"
+  },
+  {
+    "id": "412d22d5-1079-4e71-82c7-2f430ba67629",
+    "source": "hackernews",
+    "title": "A fundamental principle of aeronautical engineering has been overturned",
+    "summary": "A fundamental principle of aeronautical engineering has been overturned",
+    "url": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
+    "publishedAt": "2026-05-24T19:10:26.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.516Z"
+  },
+  {
+    "id": "8513fbc6-57ac-4aef-81dc-53d6ad21e79c",
+    "source": "hackernews",
+    "title": "Bug 1950764: Work Around Crash on Intel Raptor Lake CPU",
+    "summary": "Bug 1950764: Work Around Crash on Intel Raptor Lake CPU",
+    "url": "https://phabricator.services.mozilla.com/D301917",
+    "publishedAt": "2026-05-22T22:43:04.000Z",
+    "tags": [
+      "tech"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.516Z"
+  },
+  {
+    "id": "e0936c84-a08f-444f-961b-f9705ee47cbe",
+    "source": "coindesk",
+    "title": "Coinbase does not fear competition from Wall Street, says exchange executive",
+    "summary": "Coinbase does not fear competition from Wall Street, says exchange executive",
+    "url": "https://www.coindesk.com/",
+    "publishedAt": "2026-05-25T04:49:38.518Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:38.518Z"
+  },
+  {
+    "id": "d586e8f7-1816-48bd-a69a-a5f6c9878c2c",
+    "source": "coindesk",
+    "title": "Crypto and the Fed: State of Crypto",
+    "summary": "Crypto and the Fed: State of Crypto",
+    "url": "https://www.coindesk.com/",
+    "publishedAt": "2026-05-25T04:49:38.518Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:38.518Z"
+  },
+  {
+    "id": "154c4f42-1906-4346-81ff-b87dc5ecfcd4",
+    "source": "coindesk",
+    "title": "A massive $1 trillion hidden market is waiting to be unlocked in bitcoin, says new report",
+    "summary": "A massive $1 trillion hidden market is waiting to be unlocked in bitcoin, says new report",
+    "url": "https://www.coindesk.com/business/2026/05/24/coinbase-does-not-fear-competition-from-wall-street-says-exchange-executive",
+    "publishedAt": "2026-05-25T04:49:38.518Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:38.518Z"
+  },
+  {
+    "id": "f48ec8cf-4dd2-4e9c-8a36-6a2cb00ecec7",
+    "source": "coindesk",
+    "title": "AI is speeding up the quantum threat to crypto, security experts warn",
+    "summary": "AI is speeding up the quantum threat to crypto, security experts warn",
+    "url": "https://www.coindesk.com/policy/2026/05/24/crypto-and-the-fed-state-of-crypto",
+    "publishedAt": "2026-05-25T04:49:38.518Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:38.518Z"
+  },
+  {
+    "id": "8f05f24c-a979-40c0-b418-238d71bf34df",
+    "source": "coindesk",
+    "title": "Crypto rails are becoming the default payment layer for AI agents, report says",
+    "summary": "Crypto rails are becoming the default payment layer for AI agents, report says",
+    "url": "https://www.coindesk.com/business/2026/05/22/ledn",
+    "publishedAt": "2026-05-25T04:49:38.518Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:38.518Z"
+  },
+  {
+    "id": "0f5eece0-ba6f-4b4f-b8a5-8a18b7aa7a42",
+    "source": "coindesk",
+    "title": "Bitcoin heads higher as President Trump announces Iran peace agreement",
+    "summary": "Bitcoin heads higher as President Trump announces Iran peace agreement",
+    "url": "https://www.coindesk.com/tech/2026/05/24/ai-is-speeding-up-the-quantum-threat-to-crypto-security-experts-warn",
+    "publishedAt": "2026-05-25T04:49:38.518Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:38.518Z"
+  },
+  {
+    "id": "d3ee6492-b2db-44ef-8d52-9d022d2a9edb",
+    "source": "coindesk",
+    "title": "Bitcoin is ready to beat stocks and bonds again after underperformance against Wall Street",
+    "summary": "Bitcoin is ready to beat stocks and bonds again after underperformance against Wall Street",
+    "url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
+    "publishedAt": "2026-05-25T04:49:38.518Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:38.518Z"
+  },
+  {
+    "id": "3c7bf2be-e511-4c06-964d-888963e1ecee",
+    "source": "coindesk",
+    "title": "Crypto trader sees Hyperliquid, AI tokens leading next altcoin rally",
+    "summary": "Crypto trader sees Hyperliquid, AI tokens leading next altcoin rally",
+    "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-heads-higher-as-president-trump-announces-iran-peace-agreement",
+    "publishedAt": "2026-05-25T04:49:38.518Z",
+    "tags": [
+      "crypto",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:38.518Z"
+  },
+  {
+    "id": "45fc2bd6-c740-418e-96ef-1dcd429ed363",
+    "source": "newsapi:Cointelegraph",
+    "title": "Bitcoin bounces as Trump prepares to announce ‘negotiated’ Iran deal",
+    "summary": "President Donald Trump promised “Final aspects and details of the deal are currently being discussed\" in a post on Truth Social.",
+    "url": "https://cointelegraph.com/news/bitcoin-bounces-as-trump-prepares-to-announce-negotiated-iran-deal",
+    "publishedAt": "2026-05-24T03:20:00Z",
+    "tags": [
+      "news",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.112Z"
+  },
+  {
+    "id": "b127f22c-5818-4254-a6cb-2a6d747d2ba2",
+    "source": "newsapi:Crypto Briefing",
+    "title": "Israel launches new Gaza strikes amid US-Iran peace deal talks",
+    "summary": "Ongoing Israeli strikes in Gaza risk undermining US-Iran diplomatic progress, potentially destabilizing broader Middle Eastern negotiations.\nThe post Israel launches new Gaza strikes amid US-Iran peace deal talks appeared first on Crypto Briefing.",
+    "url": "https://cryptobriefing.com/israel-gaza-strikes-us-iran-peace-talks-crypto/",
+    "publishedAt": "2026-05-24T02:40:05Z",
+    "tags": [
+      "news",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.113Z"
+  },
+  {
+    "id": "304f4ca1-8ec2-4425-ba90-3ace0c7883a1",
+    "source": "newsapi:Crypto Briefing",
+    "title": "Iran and US near memorandum of understanding as Bitcoin rallies past $82K on de-escalation hopes",
+    "summary": "The potential easing of US-Iran tensions could reshape global economic dynamics, impacting oil markets and boosting cryptocurrency adoption.\nThe post Iran and US near memorandum of understanding as Bitcoin rallies past $82K on de-escalation hopes appeared fir…",
+    "url": "https://cryptobriefing.com/iran-us-memorandum-bitcoin-rally/",
+    "publishedAt": "2026-05-24T02:34:40Z",
+    "tags": [
+      "news",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.113Z"
+  },
+  {
+    "id": "bcc05423-73dc-4ccc-a82b-15062f6a9b76",
+    "source": "newsapi:Crypto Briefing",
+    "title": "Israel launches new Gaza strikes as US-Iran deal talks inch forward",
+    "summary": "Ongoing Israeli strikes in Gaza risk undermining US-Iran diplomatic progress, potentially destabilizing broader Middle Eastern negotiations.\nThe post Israel launches new Gaza strikes as US-Iran deal talks inch forward appeared first on Crypto Briefing.",
+    "url": "https://cryptobriefing.com/israel-gaza-strikes-us-iran-deal-crypto/",
+    "publishedAt": "2026-05-24T02:32:35Z",
+    "tags": [
+      "news",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.113Z"
+  },
+  {
+    "id": "6ff96bba-edf9-4939-94db-48c8cbf65eb1",
+    "source": "newsapi:Pypi.org",
+    "title": "tollbooth-dpyc 0.28.0",
+    "summary": "Don't Pester Your Customer™ — Bitcoin Lightning micropayments for MCP servers",
+    "url": "https://pypi.org/project/tollbooth-dpyc/0.28.0/",
+    "publishedAt": "2026-05-24T02:20:35Z",
+    "tags": [
+      "news",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.113Z"
+  },
+  {
+    "id": "4bc8daed-fd94-4fe9-b69e-355d8837176e",
+    "source": "newsapi:GlobeNewswire",
+    "title": "Crypto News Today: AlphaPepe AI DEX Hits 5,000 Users While Bitcoin Price Prediction Eyes $180,000",
+    "summary": "MONACO, May 23, 2026 (GLOBE NEWSWIRE) -- Crypto news today is turning toward AlphaPepe after the project announced that its AlphaSwap AI DEX demo has crossed 5,000 active users. The presale has raised over $1.31 million, Stage 16 remains live at $0.01751 per …",
+    "url": "https://www.globenewswire.com/news-release/2026/05/24/3300447/0/en/Crypto-News-Today-AlphaPepe-AI-DEX-Hits-5-000-Users-While-Bitcoin-Price-Prediction-Eyes-180-000.html",
+    "publishedAt": "2026-05-24T01:00:00Z",
+    "tags": [
+      "news",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.113Z"
+  },
+  {
+    "id": "a08cdb35-9fbd-4c55-8cc6-1f7349eee8c8",
+    "source": "newsapi:Crypto Briefing",
+    "title": "Venezuela seizes 4,000 Bitcoin mining machines in Maracay raid",
+    "summary": "Venezuela's crackdown on illegal Bitcoin mining highlights the tension between energy demands and digital asset regulation, impacting global mining dynamics.\nThe post Venezuela seizes 4,000 Bitcoin mining machines in Maracay raid appeared first on Crypto Brie…",
+    "url": "https://cryptobriefing.com/venezuela-seizes-bitcoin-mining-machines-maracay/",
+    "publishedAt": "2026-05-24T00:24:14Z",
+    "tags": [
+      "news",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.113Z"
+  },
+  {
+    "id": "52e02d8c-09f7-4b72-84ec-d9c6ea9ba0b8",
+    "source": "newsapi:Crypto Briefing",
+    "title": "Trump announces Iran war deal framework is nearly finalized after regional talks",
+    "summary": "The near-finalized Iran war deal framework could stabilize global energy markets, impacting oil prices and reshaping Middle East trade dynamics.\nThe post Trump announces Iran war deal framework is nearly finalized after regional talks appeared first on Crypto…",
+    "url": "https://cryptobriefing.com/trump-iran-war-deal-framework-crypto-impact/",
+    "publishedAt": "2026-05-24T00:03:23Z",
+    "tags": [
+      "news",
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "fetchedAt": "2026-05-25T04:49:39.113Z"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "id": "trade-1779685129326",
+  "executedAt": "2026-05-25T04:58:49.327Z",
+  "action": "hold",
+  "asset": "BTC",
+  "basedOnReportId": "report-1779260393642",
+  "txHash": "0xadabc7f67b121a46b216ae778a5dd483dbe3841d830e8cffa2d473591a20981f",
+  "status": "simulated",
+  "note": "No clear signal — holding"
+}
